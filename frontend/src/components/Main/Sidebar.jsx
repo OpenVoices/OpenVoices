@@ -6,17 +6,15 @@ import { FaPlus } from 'react-icons/fa';
 const Sidebar = () => {
   return (
     <Wrapper>
-      <div className="avatar-wrapper">
+      <div className="avatar">
          <img src={avatar} alt="avatar" />
       </div>
-      <div className="server">
+      <button className="server">
          <span>S</span>
-      </div>
-      <div className="add-channel">
-        <button>
+      </button>
+      <button className="add-server">
           <FaPlus className="add-icon" />
-        </button>
-      </div>
+      </button>
     </Wrapper>
   );
 };
@@ -28,50 +26,51 @@ const Wrapper = styled.aside`
   bottom: 0;
   background: var(--main-color);
   position: fixed;
-  padding: 0.3rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.5rem;
 
-  img {
-    width: 100%;
-    border-radius: 50%;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
-  }
-
-  .server {
-    width: 100%;
-    display: grid;
-    place-content: center;
-    width: 100%;
-    height: 3.375rem;
-    border: 2px solid var(--black);
-    border-radius: 0.5rem;
-    background: var(--white);
-
-    span {
-      font-size: 2rem;
-      line-height: 1.2;
+  .avatar {
+    display: flex;
+    padding-bottom: 0.5rem;
+    img {
+      width: 100%;
+      border-radius: 50%;
+      box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
     }
   }
-
-  .add-channel {
-    button {
-      all: unset;
+  
+  button {
+    aspect-ratio: 1 / 1;
+    font-size: 1.5rem;
+    border-radius: 0.75rem;
+    border: 0;
+    cursor: pointer;
+    &.server {
+      width: 100%;
+      display: grid;
+      place-content: center;
+      background: var(--white);
+      
+      &.active {
+        border: 2px solid var(--black);
+      }
+    }
+  
+    &.add-server {
       display: grid;
       place-content: center;
       width: 100%;
-      height: 3.375rem;
       background: var(--white);
-      border-radius: 0.5rem;
-      cursor: pointer;
 
       .add-icon {
-        font-size: 2rem;
+        font-size: 1.4rem;
         font-weight: 400;
       }
     }
   }
+
 `;
 
 export default Sidebar;
