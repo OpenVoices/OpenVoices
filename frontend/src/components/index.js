@@ -1,5 +1,5 @@
-import ChannelBar from './Board/ChannelBar';
-import Chat from './Board/Chat';
-import Sidebar from './Board/Sidebar';
+import ChannelBar from './Main/ChannelBar';
+import Chat from './Main/Chat';
+import Sidebar from './Main/Sidebar';
 
 export { ChannelBar, Chat, Sidebar };
