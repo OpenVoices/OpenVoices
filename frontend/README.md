@@ -1,4 +1,4 @@
-# Getting Started
-  - cd frontend 
-  - npm install, to install the dependency
-  - npm start, to start project
+## Development
+  1. `cd frontend`
+  2. `npm install`: install dependencies
+  3. `npm start`: start dev server
