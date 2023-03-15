@@ -1,4 +1,7 @@
-# Getting Started
-  - cd frontend 
-  - npm install, to install the dependency
-  - npm start, to start project
+## Development
+
+This app was created with npx create-next-app
+
+cd frontend
+npm install: install dependencies
+npm run dev: start dev server
