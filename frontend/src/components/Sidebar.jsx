@@ -9,14 +9,15 @@ const Sidebar = () => {
       <div className='avatar-wrapper'>
          <img src='assets/images/avatar.png' alt="avatar" />
       </div>
-      <div className='server'>
+      <button className='server'>
         <span>S</span>
-      </div>
-      <div className='add-channel'>
-        <button>
-          <FaPlus className='add-icon' />
-        </button>
-      </div>
+      </button>
+      <button className='server active'>
+        <span>A</span>
+      </button>
+      <button className='add-server'>
+        <FaPlus className='add-icon' />
+      </button>
     </aside>
   )
 };

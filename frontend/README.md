@@ -2,6 +2,6 @@
 
 This app was created with npx create-next-app
 
-cd frontend
-npm install: install dependencies
-npm run dev: start dev server
+  1. `cd frontend`
+  2. `npm install`: install dependencies
+  3. `npm run dev`: start dev server
