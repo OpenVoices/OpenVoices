@@ -1,0 +1,33 @@
+<!-- Shape: Server -->
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="1024" xmlns="http://www.w3.org/2000/svg" style="-webkit-print-color-adjust:exact" id="screenshot-b1b8ee53-daf1-803b-8002-2c0f3e380de0" version="1.1" viewBox="-230 -142 1024 1024" height="1024">
+  <g id="shape-b1b8ee53-daf1-803b-8002-2c0f3e380de0" rx="0" ry="0">
+    <g id="shape-b1b8ee53-daf1-803b-8002-2c0f3e380de1">
+      <g class="fills" id="fills-b1b8ee53-daf1-803b-8002-2c0f3e380de1">
+        <rect rx="12" ry="12" style="fill:#ffffff;fill-opacity:1" x="272" y="352" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" width="48" height="48">
+        </rect>
+      </g>
+    </g>
+    <g id="shape-b1b8ee53-daf1-803b-8002-2c0f6406eabd" style="fill:#000000" width="200" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" version="1.1" height="200" rx="0" ry="0">
+      <g id="shape-b1b8ee53-daf1-803b-8002-2c0f6407aec3">
+        <defs rx="0" ry="0" style="fill:#3c3c3c;fill-opacity:1">
+          <g id="shape-b1b8ee53-daf1-803b-8002-2c0f640803f3">
+            <style type="text/css" rx="0" ry="0" style="fill:#000000">
+            </style>
+          </g>
+        </defs>
+      </g>
+      <g id="shape-b1b8ee53-daf1-803b-8002-2c0f6408d199">
+        <g class="fills" id="fills-b1b8ee53-daf1-803b-8002-2c0f6408d199">
+          <path rx="0" ry="0" style="fill:#3c3c3c;fill-opacity:1" d="M295.109,367.563M295.297,367.563L296.703,367.563C296.828,367.563,296.891,367.625,296.891,367.750L296.891,384.250C296.891,384.375,296.828,384.438,296.703,384.438L295.297,384.438C295.172,384.438,295.109,384.375,295.109,384.250L295.109,367.750C295.109,367.625,295.172,367.563,295.297,367.563ZZ">
+          </path>
+        </g>
+      </g>
+      <g id="shape-b1b8ee53-daf1-803b-8002-2c0f6409872a">
+        <g class="fills" id="fills-b1b8ee53-daf1-803b-8002-2c0f6409872a">
+          <path rx="0" ry="0" style="fill:#3c3c3c;fill-opacity:1" d="M287.938,375.109M288.125,375.109L303.875,375.109C304.000,375.109,304.063,375.172,304.063,375.297L304.063,376.703C304.063,376.828,304.000,376.891,303.875,376.891L288.125,376.891C288.000,376.891,287.938,376.828,287.938,376.703L287.938,375.297C287.938,375.172,288.000,375.109,288.125,375.109ZZ">
+          </path>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
